@@ -1,7 +1,10 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: black;
+	/*background-color: black;*/
+  background-image: url('./nepal-mountain-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .top-bar {
@@ -29,3 +32,9 @@ body {
 .weather {
 	color: red;
 }
+
+.main-content-container {
+	max-height: 100px;
+}
+
+"nepal-mountain-1.jpg"

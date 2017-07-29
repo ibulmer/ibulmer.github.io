@@ -1,3 +1,26 @@
 body {
-  background-color: #08AEEA;
+  background-image: url('./dc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container > div {
+  font-size: 4em;
+}
+
+.title {
+  color: #ffffff;
+/*  font-size: 4em;*/
+  margin-right: .7em;
+}
+
+.temperature {
+  color: #ffffff;
+/*  font-size: 4em;*/
+  align-items: flex-end;
 }
